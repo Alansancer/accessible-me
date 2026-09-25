@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: rgb(139, 139, 139);
   margin: 0;
   padding: 0;
 }
@@ -18,6 +18,20 @@ h6 {
   max-width: 1080px;
   margin: 0 auto;
   padding: 0 1rem;
+}
+
+.skip-link{
+  background-color: red;
+  color:black;
+  padding: 8px 16px;
+  position: absolute;
+  top:-999px;
+  left:-999px;
+  z-index:1000;
+}
+.skip-link:focus {
+  top: 0;
+  left: 0;
 }
 
 img {
